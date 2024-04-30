@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="clc.jpg">
+    <title>Calculator</title>
+    
+</head>
+<body>
+      <div class="conatiner">
+        <input  class="display" readonly id="display">
+        <div class="keys">
+            <button onclick="add('+')" class="opera">+</button>
+            <button onclick="add('7')">7</button>
+            <button onclick="add('8')">8</button>
+            <button onclick="add('9')">9</button>
+            <button onclick="add('-')" class="opera">-</button>
+            <button onclick="add('4')">4</button>
+            <button onclick="add('5')">5</button>
+            <button onclick="add('6')">6</button>
+            <button onclick="add('*')" class="opera">*</button>
+            <button onclick="add('1')">1</button>
+            <button onclick="add('2')">2</button>
+            <button onclick="add('3')">3</button>
+            <button onclick="add('/')" class="opera">/</button>
+            <button onclick="add('0')">0</button>
+            <button onclick="add('.')">.</button>
+            <button onclick="calc()" class="opera">=</button>
+            <button onclick="cleardata()" class="opera">Del</button>
+        </div>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>

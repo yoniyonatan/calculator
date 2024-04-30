@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(blue, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+.display{
+    width: 92%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    color: white;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 20%);
+    
+}
+.conatiner{
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    max-width: 500px;
+    max-height: 710px;
+    border-radius: 15px;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    font-size: 3rem;
+    color: white;
+
+}
+ button:hover{
+     background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.opera{
+    background-color: hsl(39, 100%, 54%);
+}
+.opera:hover{
+    background-color: hsl(39, 100%, 65%);
+}
+.opera:active{
+    background-color: hsl(39, 100%, 70%);
+}
